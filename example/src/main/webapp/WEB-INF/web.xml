@@ -29,4 +29,14 @@
     <servlet-name>Employee</servlet-name>
     <url-pattern>/Employee</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FormServlet</display-name>
+    <servlet-name>FormServlet</servlet-name>
+    <servlet-class>sevlet.FormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FormServlet</servlet-name>
+    <url-pattern>/FormServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
