@@ -29,4 +29,14 @@
     <servlet-name>Employee</servlet-name>
     <url-pattern>/Employee</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ForwardServlet</display-name>
+    <servlet-name>ForwardServlet</servlet-name>
+    <servlet-class>servlet.ForwardServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ForwardServlet</servlet-name>
+    <url-pattern>/ForwardServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
