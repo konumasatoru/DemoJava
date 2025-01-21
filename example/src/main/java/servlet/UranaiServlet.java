@@ -18,8 +18,8 @@ public class UranaiServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 	//運勢をランダムで表示
-		String[] luckArray = { "超スッキリ", "スッキリ", "最悪"};
-		int index = (int)(Math.random() * 3);
+		String[] luckArray = { "超スッキリ", "スッキリ", "最悪", "大吉"};
+		int index = (int)(Math.random() * 4);
 		String luck = luckArray[index];
 		//実行日を取得
 		Date date = new Date();
