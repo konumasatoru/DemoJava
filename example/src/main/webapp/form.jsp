@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ユーザー登録もどき</title>
+<title>ユーザー登録もどき2</title>
 </head>
 <body>
 <form action="FormServlet" method="post">
